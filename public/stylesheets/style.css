@@ -1,8 +1,28 @@
 body {
+  text-align: center;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('/images/cocktailbkg.jpeg')
+
+}
+
+.main {
+ display:inline-block;
+ padding-top: 20vw;
+ 
+}
+.main form {
+  border-style: solid;
+  border-width: thick;
+  padding: 20px 25px;
 }
 
 a {
   color: #00B7FF;
 }
+
+img {
+  justify-content: center;
+  height: 20vh;
+}
+

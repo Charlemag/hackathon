@@ -1,0 +1,21 @@
+{{!-- <div class = "main">
+<h1> Cocktail Search Engine </h1>
+
+<form action="/drinks/search" method="POST">
+    <label for="">Find Your Drink</label>
+    <input type="text" name="search">
+
+    <button type="submit">Find Drinks</button>
+</form>
+</div> --}}
+
+{{#if searchResults}}
+
+    {{#each searchResults}}
+
+        <h2>{{strDrink}}</h2>
+        <img src="{{strDrinkThumb}}" alt="Image Not Found">
+
+    {{/each}}
+
+{{/if}}
